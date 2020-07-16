@@ -1,0 +1,15 @@
+target/
+.classpath
+.project
+
+/server.log
+/server.log.*
+
+/.settings/
+
+.metadata/
+/target/
+.idea/
+*.iml
+.settings/
+.vscode/

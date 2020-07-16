@@ -1,0 +1,22 @@
+server:
+  port: 18181
+  servlet:
+    #配置访问时的项目名
+    context-path: /ang
+spring:
+  # mvc:
+  #  static-path-pattern: /templates/**
+  thymeleaf:
+    prefix: classpath:/templates/
+  #  suffix: .html
+  jackson:
+    serialization:
+      indent_output: true
+
+
+#orcl_58_url: jdbc:oracle:thin:@//
+#orcl_58_username:
+#orcl_58_password:
+
+nettyPort: 8848
+readerIdleTime: 60
